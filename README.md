@@ -1,4 +1,4 @@
-# ConversAIlabs Note Asignment
+# ConversAIlabs Notes App Asignment (Timeline - 2 Hrs)
 
 ## Live Link
 https://conversailabs-notes-app-by-manash.netlify.app

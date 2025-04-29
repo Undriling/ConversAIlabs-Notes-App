@@ -10,9 +10,9 @@ https://conversailabs-notes-app-by-manash.netlify.app
 
 ## Why (Logics) 
 
-- localStorage for "ConversAIlabs_Notes": Keeps data client-side with scoped key naming for easy access and separation.
-- useState/useEffect: Simpler state management for this small project; avoids Redux overhead.
-- Tailwind CSS: Speeds up styling with utility-first classes; responsive by default.
+- localStorage to store ConversAIlabs_Notes: Keeps data client-side with scoped key naming for easy access.
+- useState/useEffect: Simpler state management for this small project, avoids Redux overhead.
+- Tailwind CSS: Speeds up styling with utility classes, responsiveness of the site.
 - Simple navigation : Keeps UI intuitive and avoids router overhead.
 
 ## Run Locally

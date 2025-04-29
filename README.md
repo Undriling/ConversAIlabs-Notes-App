@@ -4,7 +4,7 @@
 https://conversailabs-notes-app-by-manash.netlify.app
 
 ## Tech Stack
-- React
+- React.Js
 - Tailwind CSS
 - localStorage
 

@@ -3,7 +3,7 @@ import loadNotes from "../storage/loadNotes";
 
 const NotesList = () => {
   const [notes, setNotes] = useState([]);
-  const [error, setError] = useState();
+  const [error, setError] = useState("");
 
   useEffect(() => {
     try {

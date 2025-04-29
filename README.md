@@ -1,12 +1,12 @@
-# QuadB Note App
+# ConversAIlabs Note Asignment
 
-## 🚀 Live Link
-https://your-live-link.netlify.app
+## Live Link
+https://conversailabs-notes-app-by-manash.netlify.app
 
-## 🛠 Tech Stack
-- React + Hooks
+## Tech Stack
+- React
 - Tailwind CSS
-- localStorage for persistence
+- localStorage
 
 ## Why (Logics) 
 
@@ -16,7 +16,6 @@ https://your-live-link.netlify.app
 - Simple navigation : Keeps UI intuitive and avoids router overhead.
 
 ## Run Locally
-
 git clone <repo>
 cd note-app
 npm install

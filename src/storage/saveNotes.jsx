@@ -7,6 +7,7 @@ const saveNote = (note) => {
       JSON.stringify(updated)
     );
   } catch (error) {
+    console.error("Error saving note:", error);
     throw new Error("Failed To Save Note.");
   }
 };

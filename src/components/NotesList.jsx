@@ -22,7 +22,7 @@ const NotesList = () => {
         <div key={note.id} className="border p-3 mb-2">
           <h3 className="font-semibold">{note.title}</h3>
           <p className="text-sm text-gray-600">
-            {note.content.slice(0, 100)}
+            {note.content}
           </p>
         </div>
       ))}

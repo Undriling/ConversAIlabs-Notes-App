@@ -1,3 +1,29 @@
+# QuadB Note App
+
+## 🚀 Live Link
+https://your-live-link.netlify.app
+
+## 🛠 Tech Stack
+- React + Hooks
+- Tailwind CSS
+- localStorage for persistence
+
+## Why (Logics) 
+
+- localStorage for "ConversAIlabs_Notes": Keeps data client-side with scoped key naming for easy access and separation.
+- useState/useEffect: Simpler state management for this small project; avoids Redux overhead.
+- Tailwind CSS: Speeds up styling with utility-first classes; responsive by default.
+- Simple navigation : Keeps UI intuitive and avoids router overhead.
+
+## Run Locally
+
+git clone <repo>
+cd note-app
+npm install
+npm run dev
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

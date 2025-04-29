@@ -7,6 +7,9 @@ const AddNotes = ({ onNoteAdded }) => {
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState("");
 
+  if (localStorage.getItem("ConversAIlabs_Notes") === null) {
+    localStorage.setItem("ConversAIlabs_Notes", JSON.stringify([]));
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
     setSaving(true);

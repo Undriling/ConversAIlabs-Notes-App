@@ -4,7 +4,7 @@ const saveNote = (note) => {
     const updated = [...existing, note];
     localStorage.setItem(
       "ConversAIlabs_Notes",
-      JSON.stringify(updated)
+      [JSON.stringify(updated)]
     );
   } catch (error) {
     console.error("Error saving note:", error);

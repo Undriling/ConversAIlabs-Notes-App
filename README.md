@@ -16,6 +16,7 @@ https://conversailabs-notes-app-by-manash.netlify.app
 - Simple navigation : Keeps UI intuitive and avoids router overhead.
 
 ## Run Locally
+- git init
 - git clone https://github.com/Undriling/ConversAIlabs-Notes-App.git
 - cd ConversAIlabs-Notes-App
 - npm install

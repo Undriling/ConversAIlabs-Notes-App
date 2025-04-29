@@ -3,7 +3,7 @@ const loadNotes = () => {
     return (
       JSON.parse(localStorage.getItem("ConversAIlabs_Notes"))
     )
-  } catch (err) {
+  } catch (error) {
     throw new Error("Failed To Load Your Notes.");
   }
 };

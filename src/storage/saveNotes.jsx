@@ -6,7 +6,7 @@ const saveNote = (note) => {
       "ConversAIlabs_Notes",
       JSON.stringify(updated)
     );
-  } catch (err) {
+  } catch (error) {
     throw new Error("Failed To Save Note.");
   }
 };
